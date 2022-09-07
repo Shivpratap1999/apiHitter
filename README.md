@@ -8,6 +8,7 @@ After running above comond import package :<br><br>
 import "github.com/Shivpratap1999/apiHitter"<br>
 
 <h2>How to use apiHItter</h2>
+<div>
 payload := apiHitter.Payload{<br>
 		URL:         "http.google.com", <br>
 		Method:      "POST", //this may any http method<br>
@@ -19,4 +20,5 @@ payload := apiHitter.Payload{<br>
 		fmt.Printf(error:%s while hitting url",err )<br>
 	}<br>
   fmt.Printf("Response Code: %d and Response Data :%s",resp.Code , resp.Data")<br>
-  //resp is of type HitResponse which is a custom response having fields - Data []byte ,resp *http.Response , Code int.<br>
+  //resp is of type HitResponse which is a custom response having fields - Data []byte ,resp *http.Response , Code int.<br>*
+  </div>
